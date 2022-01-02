@@ -451,7 +451,7 @@ $maxWidthContainer: 0;
 
             @media (max-width: 767px) {
                 flex-direction: column;
-                row-gap: 10px;
+                row-gap: 20px;
             }
         }
     }
@@ -543,7 +543,7 @@ $maxWidthContainer: 0;
         
         @media (max-width: 767px) {
             position: static;
-            row-gap: 10px;
+            column-gap: 10px;
         }
     }
 
