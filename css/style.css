@@ -315,7 +315,6 @@ input:focus {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    row-gap: 20px;
     position: absolute;
   }
   .menu__list li {
@@ -619,7 +618,6 @@ input:focus {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    row-gap: 10px;
   }
 }
 .form__logo {
@@ -721,13 +719,14 @@ input:focus {
 @media (max-width: 767px) {
   .footer__links {
     position: static;
-    -webkit-column-gap: 10px;
-       -moz-column-gap: 10px;
-            column-gap: 10px;
   }
 }
 .footer__link img {
   width: calc(15px + 20 * ((100vw - 320px) / 1280));
-  margin-left: 10px;
+}
+@media (max-width: 767px) {
+  .footer__link img {
+    margin-left: 10px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
