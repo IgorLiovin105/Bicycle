@@ -320,6 +320,7 @@ input:focus {
   }
   .menu__list li {
     position: relative;
+    margin-bottom: 20px;
   }
   .menu__list li::before {
     content: "";
@@ -618,7 +619,7 @@ input:focus {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    row-gap: 20px;
+    row-gap: 10px;
   }
 }
 .form__logo {
@@ -644,6 +645,7 @@ input:focus {
 @media (max-width: 767px) {
   .form__input {
     width: 100%;
+    margin-bottom: 10px;
   }
 }
 .form__button {
@@ -726,5 +728,6 @@ input:focus {
 }
 .footer__link img {
   width: calc(15px + 20 * ((100vw - 320px) / 1280));
+  margin-left: 10px;
 }
 /*# sourceMappingURL=style.css.map */

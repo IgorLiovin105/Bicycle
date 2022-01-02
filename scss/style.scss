@@ -177,6 +177,7 @@ $maxWidthContainer: 0;
 
             & li {
                 position: relative;
+                margin-bottom: 20px;
 
                 &::before {
                     content: '';
@@ -451,7 +452,7 @@ $maxWidthContainer: 0;
 
             @media (max-width: 767px) {
                 flex-direction: column;
-                row-gap: 20px;
+                row-gap: 10px;
             }
         }
     }
@@ -480,6 +481,7 @@ $maxWidthContainer: 0;
 
         @media (max-width: 767px) {
             width: 100%;
+            margin-bottom: 10px;
         }
     }
 
@@ -549,5 +551,6 @@ $maxWidthContainer: 0;
 
     &__link img {
         @include adaptive-value("width", 35, 15, 3);
+        margin-left: 10px;
     }
 }
